@@ -110,19 +110,25 @@ nav div a {
 .blog-container {
     display: flex;
     flex-wrap: wrap;
-    /* max: 100%; */
-    align-items: space-around;
-    margin-left: 
+    justify-content: space-around;
+    /* padding-left: 2%; */
+    
 }
 
 .blog-container .card {
-    width: 50%;
-    margin-bottom: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 45%;
+    margin-bottom: 8%;
+    border-bottom: 1px dashed black;
+
 }
 
 .blog-container .card img {
     max-width: 100%;
     margin-bottom: 3%;
+    
 }
 
 .blog-container .card p {
@@ -133,8 +139,9 @@ nav div a {
     color: black;
     text-decoration: none;
     border: 1px solid black;
-    border-radius: 5px;
-    padding: 2% 5%;
+    border-radius: 10px;
+    padding: 10px 22px;
+    margin-bottom: 5.5%;
 
 }
 
