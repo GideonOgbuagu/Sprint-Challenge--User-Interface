@@ -72,19 +72,22 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-/* nav styling */
+/* header section styling */
+/* header {
+    margin-bottom: 4%;
+} */
 nav {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 3%;
     width: 100%;
-    margin-bottom: 6%;
+    margin-bottom: 5%;
 }
 nav .nav-wrap{	
 	display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    width: 65%;
+    width: 67%;
     margin-right: 7%;
 }
 nav div a {
@@ -102,7 +105,8 @@ nav div a {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    padding-top: 20px;  
 }
 
 .middle-content {
