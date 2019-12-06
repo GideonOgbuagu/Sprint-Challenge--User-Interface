@@ -72,6 +72,7 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
 /* header section styling */
 
 nav {
@@ -81,7 +82,6 @@ nav {
     width: 100%;
     margin-bottom: 5%;
 }
-
 nav .nav-wrap{	
 	display: flex;
     justify-content: space-between;
@@ -89,67 +89,57 @@ nav .nav-wrap{
     width: 67%;
     margin-right: 7%;
 }
-
 nav div a {
 	color: black;
 	text-decoration: none;
 }
 
+/* About section style */
+
 .top-content {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-bottom: 3.7%;
 }
 
 .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;
-    padding-top: 20px;  
+    padding: 2.5% 2%;
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
+.blog-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    /* max: 100%; */
+    align-items: space-around;
+    margin-left: 
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.blog-container .card {
+    width: 50%;
+    margin-bottom: 4%;
 }
 
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+.blog-container .card img {
+    max-width: 100%;
+    margin-bottom: 3%;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+.blog-container .card p {
+    margin-bottom: 4%;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.blog-container .card a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2% 5%;
+
 }
+
+
+/* footer styling */
 
 footer {
     width: 100%;
